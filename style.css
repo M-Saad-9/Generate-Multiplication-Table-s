@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    color: greenyellow;
+    margin: auto;
+}
+.container{
+    text-align: center;
+}
+h1 {
+    color: greenyellow;
+}
+.control{
+    border: 2px solid greenyellow;
+    margin: 10px;
+    padding: 3px;
+}
+#display{
+    border: 2px solid greenyellow;
+    padding: 10px;
+    width: 40%;
+    margin: auto;
+    font-size: 1.1rem;
+}
+.btn {
+    border: 2px solid greenyellow;
+    background-color: greenyellow;
+}
+.btn:hover {
+    background-color: rgb(196, 246, 121);
+    transition: all 0.5s;
+}
+
+.center {
+    margin-top: 100px;
+    padding: 40px;
+}
+.center {
+    text-align: center;
+}
+.center h2 {
+    color: white;
+}
+.socialimg {
+    background-color: greenyellow
+  }
+  .socialimg{
+    margin: 10px 
+  }
+  .socialimg{
+    border: 1px solid greenyellow
+  }
+  .socialimg{
+    border-radius: 100%
+  }
+  .col2{
+    color: white;
+  }
+
+  @media only screen and (max-width: 550px) {
+    .socialimg{
+        width: 7%;
+    }
+  }
